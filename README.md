@@ -1,8 +1,8 @@
 # Alcala-RE
 Proyecto final Ing. software  
 
-### Team Vakevab:  
-## Integrantes:  
+## Team Vakevab:  
+### Integrantes:  
 * Benjamin Hoyos Herrera
 * Angel Yedid Nacif
 * Genraro Gonzalez Lozada
