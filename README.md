@@ -13,8 +13,8 @@ Proyecto final Ing. software
 * Sql
 
 ### Objetivos a modificar:
-*Alta y baja de propiedades
-*Inicion de sesion (login)
-*Filro de propiedades
-*Correo de contacto de vendedor
+* Alta y baja de propiedades
+* Inicion de sesion (login)
+* Filro de propiedades
+* Correo de contacto de vendedor
 
