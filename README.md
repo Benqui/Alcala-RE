@@ -9,8 +9,9 @@ Proyecto final Ing. software
 
 ### Software:
 * Python
-* Flask
-* Sql
+* Django
+* MySQL
+* React
 
 ### Objetivos a modificar:
 * Alta y baja de propiedades
