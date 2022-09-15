@@ -5,7 +5,7 @@ Proyecto final Ing. software
 ### Integrantes:  
 * Benjamin Hoyos Herrera
 * Angel Yedid Nacif
-* Genraro Gonzalez Lozada
+* Genaro Gonzalez Lozada
 
 ### Software:
 * Python
