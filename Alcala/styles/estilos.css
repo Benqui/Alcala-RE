@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Spartan&display=swap');
+</style>html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+@font-face {
+    font-family: Qanelas-soft;
+    src: url(font/QanelasSoft-ExtraBold.otf);
+}
+
+html{
+    overflow-x: hidden;
+}
+
+footer{
+      overflow-x: hidden;
+}
+
+h3 {
+    font-family: Qanelas-soft;
+    margin-left: 1%;
+}
+
+h2 {
+    font-family: Qanelas-soft;
+}
+
+.site_header {
+    height: 100vh;
+    background-color: black;
+    background-image: url(../img/header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    max-width: 120rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container h1 {
+    color: #f2f2f2;
+    margin-top: 2rem;
+}
+
+#logo_pr {
+    height: 26rem;
+    margin-top: 5rem;
+    margin-left: 18rem;
+}
+
+.navegacion {
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.separador a
+/*a es para hacer referencia a todos los "a"*/
+
+{
+    list-style: none;
+    color: #ffffff;
+    font-family: 'Spartan', sans-serif;
+}
+
+.info {
+    display: flex;
+    margin-top: 75px;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+@media (max-width:566px) {
+    .info {
+        flex-direction: column;
+        align-content: center;
+    }
+}
+
+.info-item p {
+    font-size: 15px;
+    padding: 0 30px;
+}
+
+.info-item h3 {
+    margin-top: 30px;
+    /*espacio de arriba*/
+    font-family: 'Spartan', sans-serif;
+}
+
+.info-house {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width:566px) {
+    .info-house {
+        flex-direction: column;
+        align-content: center;
+    }
+}
+
+@media (max-width:566px) {
+    .titulos {
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
+.info-house ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0% 5%;
+    margin-left: 5%;
+}
+
+.info-house img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card {
+    border: rgb(97, 247, 60);
+    border-radius: 90px;
+    padding: 1%;
+    margin: 25px;
+    box-shadow: 10px 10px 5px rgb(85, 85, 85);
+    text-align: center;
+    height: auto;
+    width: 50%;
+}
+
+@media (max-width:566px) {
+    .card {
+        width: 85%;
+        height: auto;
+    }
+}
+
+.card-img img {
+    height: 100%;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.card-img {
+    margin-bottom: 40px;
+    height: 26rem;
+}
+
+.contenido-anuncio {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 50px;
+    margin: 2rem;
+}
+
+.titulos {
+    background-color: #979dA6;
+    height: 5rem;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+.titulos h2 {
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 250%;
+    color: black;
+}
+
+@media (max-width:566px) {
+    .titulos {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+}
+
+.row h2 {
+    text-align: center;
+    font-size: 50px;
+    margin: 2rem;
+}
+
+.tmb h2 {
+    text-align: center;
+    font-size: 50px;
+    margin: 2rem;
+}
+
+.tmb img {
+    height: 150px;
+    width: auto;
+}
+
+.info p {
+    text-align: justify;
+}
+
+.contenido-anuncio {
+    margin-top: 1.5%;
+}
+
+.icono-sub img {
+    height: 60px;
+    border-radius: 0px;
+}
+
+.img_under li {
+    padding-right: 10px;
+}
+
+.img_under img {
+    border-radius: 10px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    margin: 1.5% 1.5% 1.5% 1.5%;
+    background-color: #e5e6e6;
+}
+
+.carta {
+    width: 80%;
+    padding-left: 3rem;
+    padding-top: 1.7rem;
+}
+
+.carta h3 {
+    color: #d67516;
+    font-size: 280%;
+}
+
+.izmage {
+    height: 18rem;
+    width: 18rem;
+}
+
+.izmage img {
+    height: 100%;
+    width: 100%;
+}
+
+.bimage {
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-item img {
+    height: 100%;
+}
