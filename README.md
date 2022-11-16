@@ -11,7 +11,6 @@ Proyecto final Ing. software
 * Python
 * Django
 * MySQL
-* React
 
 ### Objetivos a modificar:
 * Alta y baja de propiedades
