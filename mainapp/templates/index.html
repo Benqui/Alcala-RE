@@ -1,0 +1,204 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alcala Real Estate</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/mainapp/styles/normalice.css">
+    <link rel="stylesheet" href="static/mainapp/styles/estilos.css">
+    <!-- <link rel="stylesheet" href="./styles/normalice.css">
+    <link rel="stylesheet" href="/styles/estilos.css"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="static/mainapp/styles/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="icon" href="static/mainapp/img/favicon.png" />
+</head>
+
+<header>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color:#212e38;">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="static/mainapp/img/ares_lar.png" width="auto" height="70" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-auto me-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- <a class="nav-link" href="inversion.html">Inversion</a> -->
+                        <a class="nav-link" href="{% url 'inversiones' %}">Inversion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'ventas' %}">Venta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'rentas' %}">Renta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'contactos' %}">Contáctanos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<header class="site_header">
+    <div class="container">
+        <div class="barra separador">
+        </div>
+        <img id="logo_pr" src="static/mainapp/img/AR ALCALA blanco web-01.png" alt="logo">
+    </div>
+</header>
+
+<body>
+
+    <section class="row">
+        <h2></h2>
+        <div class="col-sm-12 col-md-6 p-0">
+            <img src="static/mainapp/img/nosotros.jpg" class="img-fluid p-0 ">
+        </div>
+        <div class="p-4 col-sm-12 col-md-6 p-0" style="background-color:#ffffff;">
+            <h2 style="color: #d67516; font-size: 480%;">Nosotros</h2>
+            <p style="color:#000000;" class="fs-5 text m-5">Somos una empresa <b>inmobiliaria</b> dedicada a prestar servicios de intermediación de bienes inmuebles en renta o venta; así como a la gestión de la emisión de créditos hipotecarios.
+            </p>
+            <p style="color:#000000;" class="fs-5 m-5">Ofrecemos a nuestros clientes eficiencia en todos nuestros procesos y la tranquilidad de que todas las <b>propiedades</b> de nuestro portafolio son <b>verificadas</b>, es decir, fueron revisadas exhaustivamente por nuestro equipo para cerciorar
+                a todas las partes que no tendrán problema alguno de cualquier índole.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <div class="info">
+            <div class="info-item">
+                <img src="static/mainapp/img/icono1.png" alt="Seguridad">
+                <h3 class="encabezado">Seguridad</h3>
+                <p>Ofrecemos a nuestros clientes la tranquilidad de que todas las propiedades de nuestro portafolio son verificadas, es decir, fueron revisadas exhaustivamente por nuestro equipo para cerciorar a todas las partes que no tendrán problema alguno
+                    de cualquier índole.</p>
+            </div>
+            <div class="info-item">
+                <img src="static/mainapp/img/icono2.png" alt="Precio">
+                <h3>El Mejor Precio</h3>
+                <p>Manejamos precios que se ajusten a tu presupuesto, esto ofreciéndote variedad de propiedades ya sea en venta o renta que tengan los requerimientos necesarios para satisfacer tus necesidades.</p>
+            </div>
+            <div class="info-item">
+                <img src="static/mainapp/img/icono3.png" alt="Tiempo">
+                <h3>A Tiempo</h3>
+                <p>Buscamos brindar la mejor atención en un tiempo de respuesta mínimo, a la par de llevar a cabo todo lo necesario para entrega inmediata de lo solicitado segun sea el servicio brindado a nuestra clientela.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="row">
+        <h2></h2>
+        <div class="p-4 col-sm-12 col-md-6 p-0" style="background-color:#ffffff;">
+            <h2 style="color: #212e38; font-size: 480%;">Misión</h2>
+            <p style="color:#000000;" class="fs-5 text m-5">Buscamos ser una empresa de bienes raíces que brinde una atención especializada a todos nuestros clientes, dándoles seguridad, eficiencia y brindando la certeza de que nuestros empleados tienen la experiencia para tus necesidades.
+            </p>
+
+        </div>
+        <div class="col-sm-12 col-md-6 p-0">
+            <img src="static/mainapp/img/mision.jpeg " class="img-fluid p-0 ">
+        </div>
+    </section>
+
+    <section class="tmb">
+        <h2>También contamos</h2>
+        <div class="info">
+            <div class="info-item">
+                <img src="static/mainapp/img/icono1.1.png" alt="Seguridad">
+                <h3 class="encabezado">Intermediación</h3>
+                <p>Tenemos una gran experiencia como brokers inmobiliarios y contamos con una cartera de propiedades excelente para conseguir siempre las mejores propiedades que se ajusten a lo que usted necesita.</p>
+            </div>
+            <div class="info-item">
+                <img src="static/mainapp/img/icono1.3.png" alt="Tiempo">
+                <h3>Diseño</h3>
+                <p>Contamos con equipo especializado para auxiliarte en el diseño de interiores de tus inmuebles, no dudes en contactarnos, atenderemos al instante.</p>
+            </div>
+            <div class="info-item">
+                <img src="static/mainapp/img/icono1.2.png" alt="Precio">
+                <h3>Gestión</h3>
+                <p>Ofrecemos un servicio integral como brokers inmobiliarios para que nuestros clientes estén seguros de que su patrimonio está en las mejores manos, damos asesoría legal durante todos los procesos y acompañamiento en todo momento.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="row">
+        <div>
+            <h2>Encuentra la casa de tus sueños</h2>
+        </div>
+    </section>
+
+</body>
+
+<footer style="background-color:#979da6;">
+
+    <div class="container py-5 ">
+
+        <div class="row">
+            <div class="col py-4 px-3">
+                <a class="text-decoration-none fs-5 text-end " style="color:#fff6e0;" href="funcion.html#nublado"> Información de contacto </a>
+            </div>
+            <div class="col">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col py-4 px-3 ">
+                <a class="text-decoration-none fs-5 text-end " style="color:#fff6e0;"><b> Dirección </b>
+                </a>
+            </div>
+            <div class="col py-4 px-3">
+                <a class="text-decoration-none fs-5 text-end " style="color:#fff6e0;"> Torre Concreta. Calzada Gral. Mariano Escobedo 526 psio 9 oficina 930 col.Anzures Del.Miguel Hidalgo cdmx Cp 11590
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <a class="text-decoration-none fs-5 text-end " style="color:#fff6e0;"><b> Email </b>
+                </a>
+            </div>
+            <div class="col ">
+                <a class="text-decoration-none fs-5 text-end " style="color:#fff6e0;"> ventas@realcala.com
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <a class="text-decoration-none fs-5 text-end " style="color:#fff6e0;">
+                <p> (55)-6106-0781 Cd. de México Atención Inmediata</p>
+            </a>
+        </div>
+        <div class="col">
+            <a class="text-decoration-none fs-5 text-end " style="color:#fff6e0;">
+                <p> 55-7610-8333</p>
+                <p>55-8993-8491</p>
+            </a>
+        </div>
+        <div class="col">
+            <a class="  text-decoration-none fs-5 text-start " style="color:#fff6e0;">
+            </a>
+        </div>
+        <p style="background-color:#112339; color:#fff6e0; text-align:center;" class="py-2">AlcalaRealEstate.&copy; Todos los derechos reservados</p>
+    </div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+
+</html>
